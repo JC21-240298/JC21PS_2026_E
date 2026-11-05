@@ -98,7 +98,7 @@ if (userId == null || userId.isEmpty()
 
             }
 
-            // ➎ 取得したデータを画面側に渡す
+            // ➎ 取得したデータを画面側に渡す 修正
 
             mav.addObject("participantList", responseListForm);
             mav.addObject("activityName", responseDto.getActivityName());
